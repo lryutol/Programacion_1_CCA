@@ -1,0 +1,8 @@
+Algoritmo pract_While
+	Escribir "tabla del cinco en reversa"
+	i <- 10
+	Mientras i >= 1 Hacer
+		Escribir "5 * ", i ," = ", 5*i 
+		i = i - 1
+	FinMientras
+FinAlgoritmo

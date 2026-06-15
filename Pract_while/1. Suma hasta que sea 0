@@ -1,0 +1,9 @@
+Algoritmo Pract_While
+	Escribir "Ingrese un valor"
+	Leer dinero
+	mientras dinero <> 0 Hacer
+		suma = suma + dinero
+		Leer dinero
+	FinMientras
+	Escribir "El total de la suma es: ", suma
+FinAlgoritmo

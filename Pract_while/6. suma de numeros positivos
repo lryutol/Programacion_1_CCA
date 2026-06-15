@@ -1,0 +1,14 @@
+Algoritmo pract_While
+	//numeros enteros positivos y si entra un numero negativo cerrar e ciclo 
+	//y al final sumar los numeros positivos sin incluir al negativo
+	Escribir "ingrese un numero"
+	Escribir "para finalizar ingrese un numero negativo"
+	leer x
+	suma <- 0
+	Mientras x >= 0 Hacer
+		suma = suma + x
+		Escribir "introduzca mas numeros"
+		leer x
+	FinMientras
+	Escribir "la suma es = ", suma
+FinAlgoritmo

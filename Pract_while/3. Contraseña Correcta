@@ -1,0 +1,13 @@
+Algoritmo Pract_While
+	ClaveCorrecta = 1104
+	
+	Escribir "Ingrese su Contraseña"
+	leer clave
+	
+	mientras clave <> ClaveCorrecta Hacer
+		Escribir "Su clave es incorrecta, intentelo de nuevo"
+		leer clave
+	FinMientras
+	
+	Escribir "Contraseña Correcta!"
+FinAlgoritmo

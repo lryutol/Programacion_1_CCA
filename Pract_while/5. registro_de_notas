@@ -1,0 +1,9 @@
+Algoritmo pract_While
+	Escribir "ingrese la nota"
+	leer nota
+	Mientras nota < 0 o nota > 10 Hacer
+		Escribir "nota fuera de rango" 
+		leer nota
+	FinMientras
+	Escribir "nota registrada"
+FinAlgoritmo
