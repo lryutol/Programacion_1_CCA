@@ -1,0 +1,8 @@
+Algoritmo pract_While
+	Escribir "ingrese los numeros limite"
+	Leer X,C
+	Mientras X <= C Hacer
+		Escribir X
+		X = X + 1
+	FinMientras
+FinAlgoritmo

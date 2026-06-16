@@ -1,0 +1,15 @@
+Algoritmo pract_While
+	Escribir "validacion de clave"
+	//1234
+	intento <- 3
+	Mientras intento > 0 Hacer
+		Leer clave
+		si clave <> 1234 Entonces
+			Escribir "Error= Clave incorrecta, Vuelva a ingresar"
+		SiNo
+			Escribir "Clave Correcta"
+		FinSi
+		intento = intento - 1
+	FinMientras
+	Escribir "acceso denegado"
+FinAlgoritmo

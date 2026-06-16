@@ -1,0 +1,9 @@
+Algoritmo pract_While
+	Escribir "validacion de clave"
+	Leer clave //1234
+	Mientras clave <> 1234 Hacer
+		Escribir "Error= Clave incorrecta, Vuelva a ingresar"
+		Leer clave 
+	FinMientras
+	Escribir "Clave correcta!!"
+FinAlgoritmo
