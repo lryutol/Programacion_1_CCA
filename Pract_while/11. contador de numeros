@@ -1,0 +1,23 @@
+Algoritmo pract_While
+	Escribir "ingrese 10 numeros enteros"
+	NumPosi <- 0
+	NumNega <- 0
+	Num <- 0
+	contador <- 1
+	Mientras contador <= 10 Hacer
+		Leer X
+		si X > 0 Entonces
+			NumPosi <- NumPosi + 1
+		SiNo
+			si X < 0 Entonces
+				NumNega <- NumNega + 1
+			SiNo
+				Num <- Num + 1
+			FinSi
+		FinSi
+		Escribir "Ingrese el siguiente numero"
+		contador <- contador + 1
+	FinMientras
+	Escribir "La cantidad de numeros por signo son: "
+	Escribir NumPosi," positivos, ",NumNega ," negativos, "," y ",Num," ceros "
+FinAlgoritmo

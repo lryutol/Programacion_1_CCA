@@ -1,0 +1,16 @@
+Algoritmo pract_While
+	Escribir "ingrese las notas"
+	Leer X
+	NumDeNotas <- 0
+	notas <- 0
+	Mientras X > -1 Hacer
+		Nota <- X
+		notas <- notas + x
+		NumDeNotas = NumDeNotas + 1
+		Escribir "Ingrese la siguiente nota o digite (-1)"
+		Leer X
+	FinMientras
+	Escribir Nota
+	PromedioFinal = notas / NumDeNotas
+	Escribir "El promedio del curso es: ", PromedioFinal
+FinAlgoritmo

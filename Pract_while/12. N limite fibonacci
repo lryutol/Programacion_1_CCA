@@ -1,0 +1,19 @@
+Algoritmo pract_While
+	Escribir "ingrese el numero limite"
+	Leer X
+	Num1 <- 0
+	Num2 <- 1
+	contador <- 1
+	Escribir Num1
+	si X >= 2 Entonces
+		Escribir Num2
+	FinSi
+	contador <- 3
+	Mientras contador <= X Hacer
+		fibo <- Num1 + Num2
+		Escribir fibo
+		Num1 <- Num2
+		Num2 <- fibo
+		contador <- contador + 1
+	FinMientras
+FinAlgoritmo

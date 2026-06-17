@@ -1,0 +1,22 @@
+Algoritmo pract_While
+	Escribir "ingrese la cantidad a retirar"
+	Leer R
+	efectivo <- 2000
+	retiro <- 0
+	Mientras R <> 0 Hacer
+		si R > 0 y R <= efectivo Entonces
+			efectivo <- efectivo - R
+			retiro <- retiro + R
+		SiNo
+			Escribir "Monto Insuficiente"
+		FinSi
+			si efectivo = 0 Entonces
+				R <- 0
+			SiNo
+			Escribir "Cuenta con: ", efectivo, " Bs"
+			Escribir "desea seguir retirando o pulse 0 para salir"
+			leer R
+		FinSi
+FinMientras
+Escribir "usted retiro: ", retiro , " Bs y cuenta con: ", efectivo, " Bs sobrante"
+FinAlgoritmo

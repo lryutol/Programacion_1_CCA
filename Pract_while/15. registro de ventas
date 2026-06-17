@@ -1,0 +1,27 @@
+Algoritmo pract_While
+	Escribir "Ingrese los datos del producto"
+	Escribir "PRECIO"
+	Leer P
+	Escribir "CANTIDAD"
+	Leer C
+	contador <- 0
+	precio <- 0
+	cantidad <- 0
+	Mientras instruccion <> "n" Hacer
+			
+		venta = P * C
+		ventas = ventas + venta
+		contador = contador + 1
+		Escribir "Desea Agregar mas ventas s/n"
+		Leer instruccion
+		si instruccion = "s" Entonces
+			Escribir "PRECIO"
+			leer P
+			Escribir "CANTIDAD"
+			leer C
+		SiNo
+			Escribir "Que tenga buen dia"
+		FinSi
+	FinMientras
+	Escribir "El total en ventas seria de ", ventas , " y ", contador
+FinAlgoritmo
